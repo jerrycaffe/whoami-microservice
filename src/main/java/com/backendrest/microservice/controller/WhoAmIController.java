@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.servlet.http.HttpServletRequest;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/v1")
 public class WhoAmIController {
     @Autowired
 private WhoAmIService whoAmIService;

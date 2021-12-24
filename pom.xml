@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.backendrest</groupId>
-	<artifactId>microservice</artifactId>
+	<artifactId>timestamp-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microservice</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Timestamp Microservice</name>
+	<description>Time conversion freecodecamp exercise done with Java springboot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -27,11 +27,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>2.10.13</version>
-		</dependency>
+
 	</dependencies>
 
 	<build>
